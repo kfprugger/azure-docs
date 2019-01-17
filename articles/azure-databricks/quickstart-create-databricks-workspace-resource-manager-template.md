@@ -74,7 +74,9 @@ For more information on creating clusters, see [Create a Spark cluster in Azure 
 
 Before you begin with this section, you must complete the following prerequisites:
 
-* [Create an Azure Blob storage account](../storage/common/storage-quickstart-create-account.md).
+* [Create an Azure Blob storage account] 
+RUN the following command in the Azure CLI: az storage account create --name labproto1 --resource-group <student##-ml2019> --location eastus --sku Standard_LRS --kind StorageV2
+(../storage/common/storage-quickstart-create-account.md).
 * Download a sample JSON file [from GitHub](https://github.com/Azure/usql/blob/master/Examples/Samples/Data/json/radiowebsite/small_radio_json.json).
 * Upload the sample JSON file to the Azure Blob storage account you created. You can use [Microsoft Azure Storage Explorer](../vs-azure-tools-storage-manage-with-storage-explorer.md) to upload files.
 
